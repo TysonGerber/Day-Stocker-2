@@ -1,0 +1,50 @@
+
+<link rel="stylesheet" type="text/css" href="/css/average.css">
+<script src="../js/themes/averageTheme.js"></script>
+
+  <div class="bottom-nav">
+        <div class='bottom-nav-div'>
+            <ul>
+                <li class='logo'>LOGO {{average.dayStocker}}</li>
+                <li><a href="#/home"><i class="fa fa-home"  aria-hidden="true"></i>{{average.homeBNB}}</a></li>
+                <li><a href="#/stock"><i class="fa fa-area-chart"  aria-hidden="true"></i>{{average.stockBNB}}</a></li>
+                <li><a href="#/average"><i class="fa fa-bar-chart-o"  aria-hidden="true"></i>{{average.averageBNB}}</a></li>
+                <li><a  href="/logout"><i class="fa fa-sign-out" id='logout'></i>{{average.logoutBNB}}</a></li>
+                <!--<li><i class="fa fa-sign-out"  aria-hidden="true"></i><a href="#">{{average.otherBNB}}}</a></li>-->
+            </ul>
+        </div>
+    </div>
+
+
+<div class='container'>
+
+    <form ng-submit='average.getSymbol.submit(1)'>
+        <!--<fieldset>
+            <input type="text" name="ticker symbol" ng-model="average.factory.symbol">
+            <input type="text" name="time period for chart" ng-model="average.days">
+        </fieldset>
+        <button type="submit">button</button>-->
+        <!--<h1>{{average.info.Name}}</h1>
+            <h2>{{average.info.Symbol}}</h2>
+            <h2>{{average.chart}}</h2>
+            <p>{{average.greeting}}</p>-->
+        <div id="avgChart"></div>
+        <div id="buySellChart"></div>
+        <div class='buttonOuterDiv'>
+            <div class='buttonInnerDiv'>
+                <button ng-click='average.oneDay()'>1D</button>
+                <button ng-click='average.oneWeek()'>1W</button>
+                <button ng-click='average.oneMonth()'>1M</button>
+                <!--<button ng-click='average.sixMonths()'>6M</button>-->
+                <button ng-click='average.oneYear()'>1YR</button>
+                <button ng-click='average.fiveYears()'>5YR</button>
+                <button id="tenYear" ng-click='average.tenYears()'>10YR</button>
+                <button id="MAX" ng-click='average.max()'>MAX</button>
+            </div>
+        </div>
+    </form>
+
+  
+    <!-- End Nav -->
+
+</div>
