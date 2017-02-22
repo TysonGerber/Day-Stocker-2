@@ -207,3 +207,35 @@ console.log(x)
 
 var y = Number(Math.round(-1.07+'e1')+'e-1')
 console.log(y)
+
+var newArray = [];
+
+function backwards(array){
+var string = array.slice()
+console.log(string)
+// var reverse = string.reverse(a,b)
+// console.log(reverse)
+// var join = reverse.join(',')
+
+// newArray.push(join)
+}
+
+
+var backwards = function(array){
+var slice = array.slice().toString(' ')
+console.log(slice)
+var split = slice.split(',').reverse()
+console.log(split)
+
+var array = [1,2,3,4];
+
+
+var letters = ["A","B","C","D"];
+var backwards = function(letters){
+    for(var i = letters.length-1 ; i >= 0 ; i--){
+        console.log(letters[i]+i)
+        // console.log(i)
+    }
+}
+backwards(letters);
+

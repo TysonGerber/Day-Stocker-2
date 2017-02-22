@@ -16,13 +16,13 @@ function average($http, facFactory, $event) {
             average.stockBNB = 'Stocks',
             average.averageBNB = 'Average',
             average.logoutBNB = 'Logout',
-            average.dayStocker = 'Day Stocker',
-            average.otherBNB = 'Other'
+            average.dayStocker = 'Day Stocker'
+         
     }
 
     if (window.innerWidth <= 320) {
 
-    } else if (window.innerWidth >= 456) {
+    } else if (window.innerWidth >= 780) {
         bnbLetters();
     }
     // End of Bottom Navbar

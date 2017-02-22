@@ -44,7 +44,7 @@ function Auth($http) { // window.Auth
         success: function(res) {
             // when register is successful, just redirect them into the stock (already logged in)
             console.info('auth.register.success', res.data);
-            location.href = "/html/stock.html";
+            location.href = "/index.html";
         },
         error: function(err) {
             console.error('auth.register.error', err);

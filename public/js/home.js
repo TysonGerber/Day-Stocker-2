@@ -63,11 +63,7 @@ if(window.innerWidth <= 530){
 
             //    Highcharts.setOptions(Highcharts.theme);
                window.location ='#/stock'
-          
-
-      
-             
-            
+        
             },
                 function failed(res){
                     console.log('')

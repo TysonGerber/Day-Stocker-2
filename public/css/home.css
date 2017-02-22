@@ -251,9 +251,11 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-             
+             input{
+                 width: 20vw;
+             }
 
-
+    }
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/
 /*If nothing else is sharing the space then you can display: block and use margin auto

@@ -8,24 +8,23 @@ stock.$inject = ['$http', 'facFactory']
 function stock($http, facFactory) {
 
     var stock = this;
-
-
-    // Bottom Navbar
+  // Bottom Navbar
     var bnbLetters = function () {
-        stock.homeBNB = 'Home',
-            stock.stocksBNB = 'Stocks',
-            stock.averageBNB = 'Average',
+        average.homeBNB = 'Home',
+            average.stockBNB = 'Stocks',
+            average.averageBNB = 'Average',
             average.logoutBNB = 'Logout',
-            average.dayStocker = 'Day Stocker',
-            stock.otherBNB = 'Other'
+            average.dayStocker = 'Day Stocker'
+         
     }
 
     if (window.innerWidth <= 320) {
 
-    } else if (window.innerWidth >= 456) {
+    } else if (window.innerWidth >= 780) {
         bnbLetters();
     }
-
+    // End of Bottom Navbar
+    
     // stock.greeting = 'Welcome to Day Stocker!'
 
     //renaming the facFactory.
