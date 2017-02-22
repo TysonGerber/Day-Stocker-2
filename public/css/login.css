@@ -54,8 +54,9 @@ form{
     text-align: center;
     display: block;
     margin:auto;
-    margin-top: 60px;
+    margin-top: 30px;
 }
+
 i{
   /*color: #0CA5E8;
   */
@@ -102,7 +103,14 @@ ID's
 /*************************************
 CLASSES 320px
 ***************************************/
-
+.container{
+    text-align: center;
+    /*margin-top: 150px;*/
+}
+.imgDiv{
+    position: relative;
+    margin-top: 100px;
+}
 .loginButton{
   width: 80%;
   height: 40px;
@@ -112,9 +120,15 @@ CLASSES 320px
   border-radius: 5px;
 
 }
+
 .logo{
-    margin-top: 100px;
-    text-align: center;
+     width: 40vw;
+}
+.logoText{
+    font-size: 1.75em;
+    top: -18px;
+    font-family: 'Russo One', sans-serif;
+    left: 469px;
 }
 .notMember{
     padding-top: 3px;
@@ -148,6 +162,9 @@ CLASSES 480px
 .loginButton{
   width: 90%;
   height: 40px;
+}
+.logoText{
+    font-size: 2em;
 }
 
 .notMember{
@@ -185,8 +202,12 @@ label{
     width: 5%;
     padding-right: 40px;
 }
-
-
+.logo{
+     width: 500px;
+}
+.logoText{
+    font-size: 3em;
+}
 
 /*************************************
 CLASSES 768px
@@ -196,9 +217,7 @@ CLASSES 768px
   width: 95%;
   height: 40px;
 }
-.logo{
-    margin-top: 150px;
-}
+
 
 .notMember{
     padding-top: 3px;
@@ -212,9 +231,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-.logo{
-    margin-top: 200px;
-}
+
     }
 
 
@@ -223,8 +240,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-             
 
+
+             
+    }
 
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/

@@ -44,7 +44,7 @@ form{
     padding: 20px;
     display: block;
     margin:auto;
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: center;
 }
 /*i{
@@ -94,9 +94,19 @@ p {
 /*************************************
 CLASSES 320px
 ***************************************/
+
 .fieldCenter{
     text-align: center;
 }
+.imgDiv{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo{
+     width: 40vw;
+}
+
 .stockButton{
   width: 95%;
   height: 40px;
@@ -216,9 +226,11 @@ CLASSES 768px
     display: inline-block;
 }
 
+
 .logo{
-    margin-top: 150px;
+     width: 500px;
 }
+
 .registerButton{
   max-width: 95%;
   height: 40px;
