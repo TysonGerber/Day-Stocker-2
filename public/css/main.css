@@ -93,15 +93,12 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
         /* START of bottom NAV */
 
         .bottom-nav{
-               padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 94px;
-    border-bottom: 1px solid white;
-    position: fixed;
-    bottom: -102px;
-    left: -22px;
-    z-index: 100;
-    width: 100vw;
+        padding-top:15px;
+        padding-bottom:15px;
+        margin-bottom:94px;
+        /*width: 100vw;  YOU MIGHT HAVE TO PUT THIS BACK*/
+        border-bottom: 1px solid white;
+        
         }
 
         .bottom-nav ul { 
@@ -209,7 +206,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
          #stockChart{
                transform: scaleX(.95);
         }
- }
+
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 480px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
@@ -222,14 +219,6 @@ ID's 480px
 
         i{
         padding: 0px 2px 0px 2px;
-        }
-          .bottom-nav{
-        padding-top:15px;
-        padding-bottom:15px;
-        margin-bottom:94px;
-        /*width: 100vw;  YOU MIGHT HAVE TO PUT THIS BACK*/
-        border-bottom: 1px solid white;
-        
         }
         .bottom-nav ul li a {
         padding-right: 30px;
@@ -383,3 +372,13 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
 
 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 94px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    bottom: -102px;
+    left: -22px;
+    z-index: 100;
+    width: 100vw;
+}

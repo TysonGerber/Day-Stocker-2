@@ -8,15 +8,14 @@ stock.$inject = ['$http', 'facFactory']
 function stock($http, facFactory) {
 
     var stock = this;
-   
     // Bottom Navbar
     var bnbLetters = function () {
-        stock.homeBNB = 'Home',
-            stock.stockBNB = 'Stocks',
-            stock.averageBNB = 'Average',
-            stock.logoutBNB = 'Logout',
-            stock.dayStocker = 'Day Stocker'
-         
+        average.homeBNB = 'Home',
+            average.stockBNB = 'Stocks',
+            average.averageBNB = 'Average',
+            average.logoutBNB = 'Logout',
+            average.dayStocker = 'Day Stocker'
+
     }
 
     if (window.innerWidth <= 320) {

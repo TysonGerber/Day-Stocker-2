@@ -1,11 +1,11 @@
 // Market On Demand API (now IHSMarket)
 angular.module('stockApp')
-    .controller('averageController', averageCtl)
+    .controller('averageController', average)
 
-averageCtl.$inject = ['$http', 'facFactory']
+average.$inject = ['$http', 'facFactory']
 
 
-function averageCtl($http, facFactory, $event) {
+function average($http, facFactory, $event) {
     var average = this;
 
     average.greeting = 'Welcome to your average page'
@@ -16,27 +16,17 @@ function averageCtl($http, facFactory, $event) {
             average.stockBNB = 'Stocks',
             average.averageBNB = 'Average',
             average.logoutBNB = 'Logout',
-            average.dayStocker = 'Day Stocker' 
+            average.dayStocker = 'Day Stocker'
+         
     }
 
-
-window.addEventListener("resize", function(){
-    console.log('resizing Window')
     if (window.innerWidth <= 320) {
-        average.homeBNB = '',
-            average.stockBNB = '',
-            average.averageBNB = '',
-            average.logoutBNB = '',
-            average.dayStocker = ''
 
     } else if (window.innerWidth >= 780) {
-        console.log('should show letters')
         bnbLetters();
     }
-})
-
     // End of Bottom Navbar
-
+    
     average.factory = facFactory
 
 
