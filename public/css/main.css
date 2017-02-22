@@ -82,6 +82,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
             text-align: center;
             padding: 10px;
         }
+        
 
 
 
@@ -92,12 +93,15 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
         /* START of bottom NAV */
 
         .bottom-nav{
-        padding-top:15px;
-        padding-bottom:15px;
-        margin-bottom:10px;
-        /*width: 100vw;  YOU MIGHT HAVE TO PUT THIS BACK*/
-        border-bottom: 1px solid white;
-        
+               padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 94px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    bottom: -102px;
+    left: -22px;
+    z-index: 100;
+    width: 100vw;
         }
 
         .bottom-nav ul { 
@@ -147,16 +151,18 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
         }
         .buttonInnerDiv{
             text-align: center;
+            padding-top: 40px;
         }
 
         .chartPad{
-            width: 80vw
+            width: 90vw
         }
         .container{
             /*width: 100vw;*/
             width: 100vw;
             /*text-align: center;*/
         }
+      
 
         .logo{
              color: white;
@@ -185,6 +191,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
             color: white;
             min-height: 20%;
         }
+       
 
         /*************************************
         ID's 320px
@@ -199,7 +206,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
         #loId{
             font-size: 19px;
         }
-
+         #stockChart{
+               transform: scaleX(.95);
+        }
+ }
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 480px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
@@ -213,6 +223,14 @@ ID's 480px
         i{
         padding: 0px 2px 0px 2px;
         }
+          .bottom-nav{
+        padding-top:15px;
+        padding-bottom:15px;
+        margin-bottom:94px;
+        /*width: 100vw;  YOU MIGHT HAVE TO PUT THIS BACK*/
+        border-bottom: 1px solid white;
+        
+        }
         .bottom-nav ul li a {
         padding-right: 30px;
             
@@ -221,7 +239,16 @@ ID's 480px
 
             font-size: 1em;
         }
-
+        
+   .logo{
+             color: white;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    height: 40px;
+    width: 60px;
+    top: -10px;
+        }
 }
 
 
@@ -352,5 +379,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/
 /*If nothing else is sharing the space then you can display: block and use margin auto
+
+
 
 

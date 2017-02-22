@@ -8,13 +8,14 @@ stock.$inject = ['$http', 'facFactory']
 function stock($http, facFactory) {
 
     var stock = this;
-  // Bottom Navbar
+   
+    // Bottom Navbar
     var bnbLetters = function () {
-        average.homeBNB = 'Home',
-            average.stockBNB = 'Stocks',
-            average.averageBNB = 'Average',
-            average.logoutBNB = 'Logout',
-            average.dayStocker = 'Day Stocker'
+        stock.homeBNB = 'Home',
+            stock.stockBNB = 'Stocks',
+            stock.averageBNB = 'Average',
+            stock.logoutBNB = 'Logout',
+            stock.dayStocker = 'Day Stocker'
          
     }
 
@@ -24,7 +25,7 @@ function stock($http, facFactory) {
         bnbLetters();
     }
     // End of Bottom Navbar
-    
+
     // stock.greeting = 'Welcome to Day Stocker!'
 
     //renaming the facFactory.
@@ -52,51 +53,55 @@ function stock($http, facFactory) {
     // STOCK CHART
     stock.stockChart = function () {
 
-        var chart = new Highcharts.Chart('container', {
-
-
-            rangeSelector: {
-                selected: 1
+        var chart = new Highcharts.Chart({
+            chart: {
+                
+                renderTo: 'stockChart',
             },
-
-            title: {
-                text: stock.factory.company
-            },
-            xAxis: {
-                categories: stock.factory.Xaxis,
-                crosshair: true
-            },
-            yAxis: {
-                min: 0,
-                title: {
-                    text: 'Price'
-                }
-            },
-            series: [{
-                name: stock.factory.company,
-                data: stock.factory.Yaxis,
-                type: 'areaspline',
-                threshold: null,
-                tooltip: {
-                    valueDecimals: 2
+                rangeSelector: {
+                    selected: 1
                 },
 
-                fillColor: {
-                    linearGradient: {
-                        x1: 0,
-                        y1: 0,
-                        x2: 0,
-                        y2: 1
+                title: {
+                    text: stock.factory.company
+                },
+                xAxis: {
+                    categories: stock.factory.Xaxis,
+                    crosshair: true
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Price'
+                    }
+                },
+                series: [{
+                    name: stock.factory.company,
+                    data: stock.factory.Yaxis,
+                    type: 'areaspline',
+                    threshold: null,
+                    tooltip: {
+                        valueDecimals: 2
                     },
-                    stops: [
-                        [0, Highcharts.getOptions().colors[0]],
-                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                    ]
-                }
-            }]
-        });
-        Highcharts.setOptions(Highcharts.theme);
-    };
+
+                    fillColor: {
+                        linearGradient: {
+                            x1: 0,
+                            y1: 0,
+                            x2: 0,
+                            y2: 1
+                        },
+                        stops: [
+                            [0, Highcharts.getOptions().colors[0]],
+                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                        ]
+                    }
+                }]
+            })
+              Highcharts.setOptions(Highcharts.theme);
+        }
+                  
+    
 
     console.log('stock.factory.company', stock.factory.company)
 

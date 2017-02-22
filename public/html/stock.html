@@ -6,14 +6,14 @@
   <div class="bottom-nav">
         <div class='bottom-nav-div'>
             <img class='logo'src="../img/dayStockerLogo.png" alt="Logo">
-             <div class='logoLetters'>{{average.dayStocker}}</div>
+             <div class='logoLetters'>{{stock.dayStocker}}</div>
             <ul>
-                    <li><a href="#/home"><i class="fa fa-home"  aria-hidden="true"></i>{{average.homeBNB}}</a></li>
-                    <li><a href="#/stock"><i class="fa fa-area-chart"  aria-hidden="true"></i>{{average.stockBNB}}</a></li>
-                    <li><a href="#/average"><i class="fa fa-bar-chart-o"  aria-hidden="true"></i>{{average.averageBNB}}</a></li>
+                    <li><a href="#/home"><i class="fa fa-home"  aria-hidden="true"></i>{{stock.homeBNB}}</a></li>
+                    <li><a href="#/stock"><i class="fa fa-area-chart"  aria-hidden="true"></i>{{stock.stockBNB}}</a></li>
+                    <li><a href="#/average"><i class="fa fa-bar-chart-o"  aria-hidden="true"></i>{{stock.averageBNB}}</a></li>
                 <!--<li><i class="fa fa-sign-out"  aria-hidden="true"></i><a href="#">{{average.otherBNB}}}</a></li>-->
             </ul>
-               <div class='logout'><a  href="/logout"><i class="fa fa-sign-out" id='loId'></i>{{average.logoutBNB}}</a></div>
+               <div class='logout'><a  href="/logout"><i class="fa fa-sign-out" id='loId'></i>{{stock.logoutBNB}}</a></div>
         </div>
     </div>
 
@@ -24,7 +24,8 @@
         <h2>{{stock.info.Symbol}}</h2>
         <h2>{{stock.chart}}</h2>-->
 
-        <div id="container"></div>
+        <!--<div id="container"></div>-->
+         <div id="stockChart"></div>
 
     <div class='buttonOuterDiv'>
             <div class='buttonInnerDiv'>
