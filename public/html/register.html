@@ -11,8 +11,12 @@
           <link rel="stylesheet" type="text/css" href="/css/register.css">
     </head>
     <body ng-controller="module.auth.controller as auth">
-         <div class='container'>
-         <h1 class='logo'>REGISTER</h1>
+       <div class='container'>
+            <div class='imgDiv'>
+                <img class='logo'src="../img/dayStockerLogo.png" alt="Logo">
+                 <!--<h1 class='logoText'>REGISTER</h1>-->
+            </div>
+      
         <form ng-submit="auth.register.submit($event)">
              <fieldset class='inline-block fieldset1'>
                 <label><i class="fa fa-user-o" id='faUser' aria-hidden="true"></i><!--First Name--></label>

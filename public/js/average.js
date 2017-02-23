@@ -16,8 +16,7 @@ function average($http, facFactory, $event) {
             average.stockBNB = 'Stocks',
             average.averageBNB = 'Average',
             average.logoutBNB = 'Logout',
-            average.dayStocker = 'Day Stocker'
-         
+            average.dayStocker = 'Day Stocker'   
     }
 
     if (window.innerWidth <= 320) {

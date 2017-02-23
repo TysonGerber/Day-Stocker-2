@@ -89,7 +89,10 @@ CLASSES 320px
     padding: 0px 0px 25px 0px;
     border: 0px;
 }
-
+.imgDiv{
+   text-align: center;
+    margin-top: 100px;
+}
 .registerButton{
   width: 95%;
   height: 40px;
@@ -99,17 +102,20 @@ CLASSES 320px
   border-radius: 5px;
 
 }
+
 .logo{
-    margin-top: 100px;
-    text-align: center;
+     width: 40vw;
+}
+.logoText{
+    font-size: 1.75em;
+    top: -18px;
+    font-family: 'Russo One', sans-serif;
+    left: 469px;
 }
 .password{
     padding-bottom: 30px;
 }
-.logo{
-    text-align: center;
 
-}
 
 /*************************************
 ID's 320px
@@ -148,6 +154,9 @@ ID's 480px
     
 #input2{
     width: 85%;
+}
+.logoText{
+    font-size: 2em;
 }
 }
     
@@ -195,12 +204,15 @@ CLASSES 768px
     display: inline-block;
 }
 
-.logo{
-    margin-top: 150px;
-}
 .registerButton{
   max-width: 95%;
   height: 40px;
+}
+.logo{
+     width: 500px;
+}
+.logoText{
+    font-size: 3em;
 }
 
 
@@ -211,9 +223,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-.logo{
-    margin-top: 200px;
-}
+
     }
 
 
