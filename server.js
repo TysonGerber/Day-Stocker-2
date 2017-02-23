@@ -25,7 +25,7 @@ var config = require('./package'),
     }), 
 
     //Port
-    PORT = process.env.PORT || 8080,
+    PORT = process.env.PORT || 80,
     Routes = require('./routes/index.js'), //don't need to put /index.js because computer see index.js as the go to file. We added it to be explicit and to read where the file goes
     app = express();
 
