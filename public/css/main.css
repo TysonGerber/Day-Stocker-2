@@ -9,361 +9,352 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
  @media only screen and (min-width : 320px) {
 
 /*************************************
-          Tag/Element Selectors 320px
+    Tag/Element Selectors 320px
 ***************************************/
-        * {
-            box-sizing: border-box;
-        }
+    * {
+        box-sizing: border-box;
+    }
 
-        a{
-            text-decoration: none;
-            color: white;
-        }
+    a{
+        text-decoration: none;
+        color: white;
+    }
 
-        body{
-            color: white;
-            font-family: 'Open Sans', sans-serif;
-            /*font-family: 'Arvo', serif;*/
-            /*margin: 0px 40px;*/
-            background: #262626;
-        }
+    a:hover{
+        text-decoration: none;
+    }
 
+    body{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Arvo', serif;*/
+        /*margin: 0px 40px;*/
+        background: #262626;
+    }
 
-        button, input, optgroup, select, textarea{
-            font-family: 'Open Sans', sans-serif;
-            background-color: transparent;
-            border: none;
-            color: white;
-            padding: 0px 10px 0px 10px;
-            font-size: .75em;
-        }
-        button:hover{
-            background-image: linear-gradient(#485258, #262626)
-        }
+    button, input, optgroup, select, textarea{
+        font-family: 'Open Sans', sans-serif;
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 0px 10px 0px 10px;
+        font-size: .75em;
+    }
 
-        /*form{
-        width: auto;
-        max-width: 85vw;
-        min-width: 75vw;
-        }*/
-        i{
+    button:hover{
+    background-image: linear-gradient(#485258, #262626)
+    }
+
+    i{
         font-size: 25px;
         padding: 0px 20px 0px 20px;
-        }
+    }
 
-        a:hover{
-            text-decoration: none;
-        }
-        input{
-            background: transparent;
-            border: none;
-            border-bottom: 1px solid #fff;
-            color: white;
-            border-radius: 0px;
-        
-        
-        }
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: white;
+        border-radius: 0px;
+    }
 
-        input:focus {
-            outline: none;
-        }
+    input:focus {
+        outline: none;
+    }
 
-        label{
-            display: inline-block;
-            width: 5%;
-            padding-right: 40px;
-        }
+    label{
+        display: inline-block;
+        width: 5%;
+        padding-right: 40px;
+    }
 
-        li{
-        
-            /*padding-right: 5%*/
-        }
-        p {
-            text-align: center;
-            padding: 10px;
-        }
-        
+    p {
+        text-align: center;
+        padding: 10px;
+    }
 
 
+/*************************************
+CLASSES 320px
+***************************************/
 
-        /*************************************
-        CLASSES 320px
-        ***************************************/
+/* START of bottom NAV */
 
-        /* START of bottom NAV */
-
-        .bottom-nav{
+    .bottom-nav{
         padding-top:15px;
         padding-bottom:15px;
         margin-bottom:94px;
         /*width: 100vw;  YOU MIGHT HAVE TO PUT THIS BACK*/
         border-bottom: 1px solid white;
-        
-        }
+    }
 
-        .bottom-nav ul { 
-            margin: 0; 
-            padding: 0 !important; 
-            list-style-type: none; 
-            list-style-image: none; 
-            list-style:none;
-            display: inline-block;
-        }
+    .bottom-nav ul { 
+        margin: 0; 
+        padding: 0 !important; 
+        list-style-type: none; 
+        list-style-image: none; 
+        list-style:none;
+        display: inline-block;
+    }
 
-        .bottom-nav li { 
-            margin-right: 0px; 
-            display: inline; 
-        }
+    .bottom-nav li { 
+        margin-right: 0px; 
+        display: inline; 
+    }
 
-        .bottom-nav ul li a {
-            text-decoration:none;  
-            margin: 0px; 
-            color:#ffffff; 
-            padding: 2px;
-            margin: auto;
-            
-        }
+    .bottom-nav ul li a {
+        text-decoration:none;  
+        margin: 0px; 
+        color:#ffffff; 
+        padding: 2px;
+        margin: auto;
+    }
 
-        .bottom-nav ul li a:hover { color: #fff; 
-            background-color:#212020; 
-            text-decoration:none; 
-            background-image: linear-gradient(#485258, #262626);
-        }
+    .bottom-nav ul li a:hover { color: #fff; 
+        background-color:#212020; 
+        text-decoration:none; 
+        background-image: linear-gradient(#485258, #262626);
+    }
 
-        .bottom-nav li.current-menu-item a{ color: #fff; 
-            text-decoration:none; 
-            background-color:#262626; 
-        }
+    .bottom-nav li.current-menu-item a{ color: #fff; 
+        text-decoration:none; 
+        background-color:#262626; 
+    }
 
-        .bottom-nav li.current_page_item  { color: #fff; 
-            text-decoration:none; 
-            background-color:#262626; 
-        }
+    .bottom-nav li.current_page_item  { color: #fff; 
+        text-decoration:none; 
+        background-color:#262626; 
+    }
 
-        .bottom-nav-div{
-            /*width: 100vw;*/
-            text-align: center;
-            position: relative;
-            /*float: center;*/
-        }
-        .buttonInnerDiv{
-            text-align: center;
-            padding-top: 40px;
-        }
+    .bottom-nav-div{
+        /*width: 100vw;*/
+        text-align: center;
+        position: relative;
+        /*float: center;*/
+    }
+    .buttonInnerDiv{
+        text-align: center;
+        padding-top: 40px;
+    }
 
-        .chartPad{
-            width: 90vw
-        }
-        .container{
-            /*width: 100vw;*/
-            width: 100vw;
-            /*text-align: center;*/
-        }
-      
+    .chartPad{
+        width: 90vw
+    }
+    .container{
+        /*width: 100vw;*/
+        width: 100vw;
+        /*text-align: center;*/
+    }
 
-        .logo{
-             color: white;
-    display: inline-block;
-    position: absolute;
-    left: 10px;
-    height: 30px;
-    width: 50px;
-    top: -10px;
-        }
-        .logoLetters{
-            display: inline-block;
-            position: absolute; 
-            left: 191px;
-        }
-        .logout{
-            position: absolute;
-            right: 12px;
-            display: inline-block;
-            top: 2px;
-        }
+    .logo{
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        height: 30px;
+        width: 50px;
+        top: -10px;
+    }
 
-        .menuBar{
-            width: 100vw;
-            list-style: none;
-            color: white;
-            min-height: 20%;
-        }
-       
+    .logoLetters{
+        display: inline-block;
+        position: absolute; 
+        left: 191px;
+    }
 
-        /*************************************
-        ID's 320px
-        ***************************************/
-        #avgChart{
-            height: 45vh;
-        
-        }
-        #buySellChart {
-            height: 45vh
-        }
-        #loId{
-            font-size: 19px;
-        }
-         #stockChart{
-               transform: scaleX(.95);
-        }
+    .logout{
+        position: absolute;
+        right: 12px;
+        display: inline-block;
+        top: 2px;
+    }
 
-/*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-           @MEDIA 480px
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
-    /* Extra Small Devices, Phones */ 
+    .menuBar{
+        width: 100vw;
+        list-style: none;
+        color: white;
+        min-height: 20%;
+    }
 
 /*************************************
-ID's 480px
+ID's 320px
 ***************************************/
-    @media only screen and (min-width : 480px) {
+    #avgChart{
+        height: 45vh;
 
-        i{
-        padding: 0px 2px 0px 2px;
-        }
-        .bottom-nav ul li a {
-        padding-right: 30px;
-            
-        }
-        button, input, optgroup, select, textarea{
+    }
 
-            font-size: 1em;
-        }
-        
-   .logo{
-             color: white;
-    display: inline-block;
-    position: absolute;
-    left: 10px;
-    height: 40px;
-    width: 60px;
-    top: -10px;
-        }
+    #buySellChart {
+        height: 45vh
+    }
+
+    #loId{
+        font-size: 19px;
+    }
+
+    #stockChart{
+        transform: scaleX(.95);
+    }
+
 }
 
 
-    
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-           @MEDIA 768px
+@MEDIA 480px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
-    /* Small Devices, Tablets */
-   @media only screen and (min-width : 768px) {
+/* Extra Small Devices, Phones */ 
+
+/*EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Tag/Element Selectors 480px
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+@media only screen and (min-width : 480px) {
+
+    button, input, optgroup, select, textarea{
+        font-size: 1em;
+    }
+
+    i{
+        padding: 0px 2px 0px 2px;
+    }
+
+ /*************************************
+    CLASSES 480px
+***************************************/
+
+   .bottom-nav ul li a {
+        padding-right: 30px;
+
+    }
+
+   .logo{
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        height: 40px;
+        width: 60px;
+        top: -10px;
+    }
+
+}
+
+
+/*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+@MEDIA 768px
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
 
 /*EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 Tag/Element Selectors 768px
 EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
-        button, input, optgroup, select, textarea{
+    button, input, optgroup, select, textarea{
+        font-size: 1.50em;
+    }
 
-            font-size: 1.50em;
-        }
-        form{
-            /*max-width: 786px;*/
-                /*background:rgba(233,333,883,0.2);
+    label{
+        padding-right:46px;
+    }
 
-            filter:blur(4px);
-            -o-filter:blur(4px);
-            -ms-filter:blur(4px);
-            -moz-filter:blur(4px);
-            -webkit-filter:blur(4px);*/
-        }
-
-        #input1{
-            width: 80%  
-        }
-        #input2{
-            width: 89%  
-        }
-
-        label{
-            padding-right:46px;
-        }
-
-        i{
+    i{
         padding: 2px;
-        }
+    }
 
-        /*************************************
-        CLASSES 768px
-        ***************************************/
-        .bottom-nav ul li a {
-            padding: 0px 50px 0px 50px;  
+    /*************************************
+    CLASSES 768px
+    ***************************************/
+    .bottom-nav ul li a {
+        padding: 0px 50px 0px 50px;  
 
-        }
+    }
 
+    .bottom-nav li { 
+        /*margin-right: 0px; */
+        display: inline; 
+    }
 
-        .bottom-nav li { 
-            /*margin-right: 0px; */
-            display: inline; 
-        }
+    .fieldset1 {
+        width:49%;
 
+    }
+    .inline-block{
+        display: inline-block;
+    }
+   .logoLetters{
 
-        .fieldset1 {
-            width:49%;
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        font-size: 1em;
+        padding-right:10px;
 
-        }
-        .inline-block{
-            display: inline-block;
-        }
+    }
 
-        .registerButton{
+    .registerButton{
         max-width: 95%;
         height: 40px;
-        }
+    }
 
-  .logoLetters{
-           
-    display: inline-block;
-    position: absolute;
-    left: 60px;
-    font-size: 1em;
-    padding-right:10px;
-   
-        }
+/*************************************
+ID's 768px
+***************************************/
+
+    #input1{
+        width: 80%  
+    }
+    #input2{
+        width: 89%  
+    }
       
 }
 
 
-        /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-                @MEDIA 992px
-        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+/*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        @MEDIA 992px
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
- /* Medium Devices, Desktops */
- @media only screen and (min-width : 992px) {
-    
-        button, input, optgroup, select, textarea{
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
 
-            padding: 0px 40px 0px 40px;
-        }
+    button, input, optgroup, select, textarea{
+        padding: 0px 40px 0px 40px;
+    }
+
+/*************************************
+CLASSES 768px
+***************************************/
+
     .logoLetters{
-       display: inline-block;
-    position: absolute;
-    left: 136px;
-    font-size: 1.4em;
-    top: 4px;
-        }
-      .logo{
-             color: white;
-    display: inline-block;
-    position: absolute;
-    left: 27px;
-    height: 56px;
-    width: 118px;
-    top: -20px;
-        }
+        display: inline-block;
+        position: absolute;
+        left: 136px;
+        font-size: 1.4em;
+        top: 4px;
+    }
 
- .bottom-nav ul li a {
-            padding: 0px 50px 0px 50px;  
- font-size: 1.25em;
-        }
-           
+    .logo{
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 27px;
+        height: 56px;
+        width: 118px;
+        top: -20px;
+    }
+
+    .bottom-nav ul li a {
+        padding: 0px 50px 0px 50px;  
+        font-size: 1.25em;
+    }
+        
 }
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-           @MEDIA 1200px
+        @MEDIA 1200px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-             
-
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
 }
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/

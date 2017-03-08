@@ -1,5 +1,151 @@
 /*Mobile First*/
 
+ @media only screen and (min-width : 320px) {
+
+/*************************************
+        Tag/Element Selectors 320px
+***************************************/
+    * {
+        box-sizing: border-box;
+    }
+
+    a{
+        text-decoration: none;
+        color: #0CA5E8;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
+    body{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Arvo', serif;*/
+        margin: 0px 40px;
+        background: #262626;
+    }
+
+    fieldset{
+        border: none;
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 200px;
+        background: rgba(63,62,62,0.5);
+        border-radius: 10px;
+        padding: 20px;
+        display: block;
+        margin:auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: white;
+        border-radius: 0px; 
+        width: 25vw;
+        font-size:1em;
+        text-align: center;
+    }
+
+    input:focus {
+        outline: none;
+        
+    }
+
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*THIS IS THE PLACEHOLDER*/
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:   rgba(255,255,255,0.3)
+
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+    color:   rgba(255,255,255,0.3)
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+    color:   rgba(255,255,255,0.3)
+    }
+    :-moz-placeholder { /* Firefox 18- */
+    color:   rgba(255,255,255,0.3)
+    }
+    
+
+/*************************************
+CLASSES 320px
+***************************************/
+
+    .fieldCenter{
+        text-align: center;
+    }
+    .imgDiv{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .logo{
+        width: 40vw;
+    }
+
+    .stockButton{
+    width: 95%;
+    height: 40px;
+    background-color: #0CA5E8;
+    border: #0CA5E0;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 30px;
+
+    }
+
+    .stockTitle{
+        font-size: 1em;
+    }
+
+    .title{
+        text-align: center
+    }
+
+    .welcome{
+        font-size: 1.5em;
+    }
+
+
+/*************************************
+ID's 320px
+***************************************/
+
+
+    #input1{
+        width: 80%;
+    }
+        
+    #input2{
+        width: 80%;
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 320px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
@@ -9,127 +155,121 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
  @media only screen and (min-width : 320px) {
 
 /*************************************
-          Tag/Element Selectors 320px
+        Tag/Element Selectors 320px
 ***************************************/
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-a{
-    text-decoration: none;
-     color: #0CA5E8;
-}
+    a{
+        text-decoration: none;
+        color: #0CA5E8;
+    }
 
-body{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Arvo', serif;*/
-    margin: 0px 40px;
-    background: #262626;
-}
+    a:hover{
+        text-decoration: none;
+    }
 
-fieldset{
-    border: none;
-    margin-top: 50px;
-}
+    body{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Arvo', serif;*/
+        margin: 0px 40px;
+        background: #262626;
+    }
 
-/*body > form > fieldset > input[
+    fieldset{
+        border: none;
+        margin-top: 50px;
+    }
 
-]*/
+    form{
+        margin-top: 200px;
+        background: rgba(63,62,62,0.5);
+        border-radius: 10px;
+        padding: 20px;
+        display: block;
+        margin:auto;
+        margin-top: 30px;
+        text-align: center;
+    }
 
-form{
-    margin-top: 200px;
-    background: rgba(63,62,62,0.5);
-    border-radius: 10px;
-    padding: 20px;
-    display: block;
-    margin:auto;
-    margin-top: 30px;
-    text-align: center;
-}
-/*i{
- font-size: 25px;
-}*/
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: white;
+        border-radius: 0px; 
+        width: 25vw;
+        font-size:1em;
+        text-align: center;
+    }
 
-a:hover{
-    text-decoration: none;
-}
-input{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: white;
-    border-radius: 0px; 
-    width: 25vw;
-    font-size:1em;
-    text-align: center;
-}
+    input:focus {
+        outline: none;
+        
+    }
 
-input:focus {
-    outline: none;
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*THIS IS THE PLACEHOLDER*/
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:   rgba(255,255,255,0.3)
+
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+    color:   rgba(255,255,255,0.3)
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+    color:   rgba(255,255,255,0.3)
+    }
+    :-moz-placeholder { /* Firefox 18- */
+    color:   rgba(255,255,255,0.3)
+    }
     
-}
-
-p {
-    text-align: center;
-    padding: 10px;
-}
-
-/*THIS IS THE PLACEHOLDER*/
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color:   rgba(255,255,255,0.3)
-
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color:   rgba(255,255,255,0.3)
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color:   rgba(255,255,255,0.3)
-}
-:-moz-placeholder { /* Firefox 18- */
-  color:   rgba(255,255,255,0.3)
-}
- 
 
 /*************************************
 CLASSES 320px
 ***************************************/
 
-.fieldCenter{
-    text-align: center;
-}
-.imgDiv{
-    text-align: center;
-    margin-top: 100px;
-}
+    .fieldCenter{
+        text-align: center;
+    }
+    .imgDiv{
+        text-align: center;
+        margin-top: 100px;
+    }
 
-.logo{
-     width: 40vw;
-}
+    .logo{
+        width: 40vw;
+    }
 
-.stockButton{
-  width: 95%;
-  height: 40px;
-  background-color: #0CA5E8;
-  border: #0CA5E0;
-  color: white;
-  border-radius: 5px;
-  font-size: 1em;
-  margin-top: 30px;
-
-}
-
-.stockTitle{
+    .stockButton{
+    width: 95%;
+    height: 40px;
+    background-color: #0CA5E8;
+    border: #0CA5E0;
+    color: white;
+    border-radius: 5px;
     font-size: 1em;
-}
+    margin-top: 30px;
 
-.title{
-    text-align: center
-}
+    }
 
-.welcome{
-    font-size: 1.5em;
-}
+    .stockTitle{
+        font-size: 1em;
+    }
+
+    .title{
+        text-align: center
+    }
+
+    .welcome{
+        font-size: 1.5em;
+    }
 
 
 /*************************************
@@ -137,13 +277,13 @@ ID's 320px
 ***************************************/
 
 
-#input1{
-    width: 80%;
-}
-    
-#input2{
-    width: 80%;
-}
+    #input1{
+        width: 80%;
+    }
+        
+    #input2{
+        width: 80%;
+    }
     
  }
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -155,13 +295,13 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 ID's 480px
 ***************************************/
     @media only screen and (min-width : 480px) {
- #input1{
-    width: 85%;
-}
-    
-#input2{
-    width: 85%;
-}
+    #input1{
+        width: 85%;
+    }
+        
+    #input2{
+        width: 85%;
+    }
 
 
 /*************************************
@@ -169,18 +309,18 @@ Class 480px
 ***************************************/
 
 
-.stockTitle{
-    font-size: 1.25em;
-}
-
-.title{
-    text-align: center
-}
-
-.welcome{
-    font-size: 1.75em;
-}
+    .stockTitle{
+        font-size: 1.25em;
     }
+
+    .title{
+        text-align: center
+    }
+
+    .welcome{
+        font-size: 1.75em;
+    }
+}
     
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 768px
@@ -192,64 +332,69 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 Tag/Element Selectors 768px
 EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 
-form{
-    max-width: 786px;
-        /*background:rgba(233,333,883,0.2);
+    form{
+        max-width: 786px;
+            /*background:rgba(233,333,883,0.2);
 
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);*/
-}
+        filter:blur(4px);
+        -o-filter:blur(4px);
+        -ms-filter:blur(4px);
+        -moz-filter:blur(4px);
+        -webkit-filter:blur(4px);*/
+    }
 
-#input1{
-    width: 80%  
-}
-#input2{
-    width: 89%  
-}
 
-label{
-    padding-right:46px;
-}
+    label{
+        padding-right:46px;
+    }
 
+/*************************************
+ID's 480px
+***************************************/
+
+
+    #input1{
+        width: 80%  
+    }
+    #input2{
+        width: 89%  
+    }
 
 /*************************************
 CLASSES 768px
 ***************************************/
-.fieldset1 {
-    width:49%;
+    .fieldset1 {
+        width:49%;
 
-}
-.inline-block{
-    display: inline-block;
-}
-
-
-.logo{
-     width: 500px;
-}
-
-.registerButton{
-  max-width: 95%;
-  height: 40px;
-}
-.stockTitle{
-    font-size: 1.5em;
-}
-
-.title{
-    text-align: center
-}
-
-.welcome{
-    font-size: 2em;
-}
+    }
+    .inline-block{
+        display: inline-block;
     }
 
+
+    .logo{
+        width: 500px;
+    }
+
+    .registerButton{
+    max-width: 95%;
+    height: 40px;
+    }
+    .stockTitle{
+        font-size: 1.5em;
+    }
+
+    .title{
+        text-align: center
+    }
+
+    .welcome{
+        font-size: 2em;
+    }
+}
+
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-           @MEDIA 992px
+        @MEDIA 992px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
     /* Medium Devices, Desktops */
@@ -263,11 +408,11 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-             input{
-                 width: 20vw;
-             }
-
+    input{
+        width: 20vw;
     }
+
+}
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/
 /*If nothing else is sharing the space then you can display: block and use margin auto

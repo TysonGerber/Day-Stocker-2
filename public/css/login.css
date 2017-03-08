@@ -11,164 +11,167 @@
            @MEDIA 320px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
-
-
  @media only screen and (min-width : 320px) {
 
 /*************************************
-          Tag/Element Selectors 320px
+        Tag/Element Selectors 320px
 ***************************************/
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-a{
-    text-decoration: none;
-     color: #0CA5E8;
-}
+    a{
+        text-decoration: none;
+        color: #0CA5E8;
+    }
 
-body{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Arvo', serif;*/
-    margin: 0px 40px;
-    background: #262626;
-    font-size: 15px;
-}
+    a:hover{
+        text-decoration: none;
+    }
 
-button, input, optgroup, select, textarea{
-      font-family: 'Open Sans', sans-serif;
-}
+    body{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Arvo', serif;*/
+        margin: 0px 40px;
+        background: #262626;
+        font-size: 15px;
+    }
+
+    button, input, optgroup, select, textarea{
+        font-family: 'Open Sans', sans-serif;
+    }
 
 
 
-fieldset {
-    padding: 0px 0px 25px 0px;
-}
+    fieldset {
+        padding: 0px 0px 25px 0px;
+    }
 
-form{
-    margin-top: 200px;
-    background: rgba(63,62,62,0.5);
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    display: block;
-    margin:auto;
-    margin-top: 30px;
-}
+    form{
+        margin-top: 200px;
+        background: rgba(63,62,62,0.5);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        display: block;
+        margin:auto;
+        margin-top: 30px;
+    }
 
-i{
-  /*color: #0CA5E8;
-  */
-}
+    i{
+    /*color: #0CA5E8;
+    */
+    }
 
-a:hover{
-    text-decoration: none;
-}
-input{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: white;
-    width: 60%;
-    border-radius: 0px;
-}
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: white;
+        width: 60%;
+        border-radius: 0px;
+    }
 
-input:focus {
-    outline: none;
-}
+    input:focus {
+        outline: none;
+    }
 
-label{
-    display: inline-block;
-    width: 3%;
-    padding-right: 30px;
-}
+    label{
+        display: inline-block;
+        width: 3%;
+        padding-right: 30px;
+    }
 
-p {
-    text-align: center;
-}
+    p {
+        text-align: center;
+    }
 
 /*************************************
 ID's
 ***************************************/
-#faEnvelope{
-    font-size: 25px;
-}
+    #faEnvelope{
+        font-size: 25px;
+    }
 
-#faLock{
-    font-size: 37px;
-}
+    #faLock{
+        font-size: 37px;
+    }
 
 
 /*************************************
 CLASSES 320px
 ***************************************/
-.container{
-    text-align: center;
-    /*margin-top: 150px;*/
-}
-.imgDiv{
-    position: relative;
-    margin-top: 100px;
-}
-.loginButton{
-  width: 80%;
-  height: 40px;
-  background-color: #0CA5E8;
-  border: #0CA5E0;
-  color: white;
-  border-radius: 5px;
+    .container{
+        text-align: center;
+        /*margin-top: 150px;*/
+    }
+    .imgDiv{
+        position: relative;
+        margin-top: 100px;
+    }
+    .loginButton{
+    width: 80%;
+    height: 40px;
+    background-color: #0CA5E8;
+    border: #0CA5E0;
+    color: white;
+    border-radius: 5px;
 
-}
+    }
 
-.logo{
-     width: 40vw;
-}
-.logoText{
-    font-size: 1.75em;
-    top: -18px;
-    font-family: 'Russo One', sans-serif;
-    left: 469px;
-}
-.notMember{
-    padding-top: 3px;
-}
-.password{
-    padding-bottom: 30px;
-}
+    .logo{
+        width: 40vw;
+    }
+    .logoText{
+        font-size: 1.75em;
+        top: -18px;
+        font-family: 'Russo One', sans-serif;
+        left: 469px;
+    }
+    .notMember{
+        padding-top: 3px;
+    }
+    .password{
+        padding-bottom: 30px;
+    }
 
+ }
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 480px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-        
 
+/*************************************
+          Tag/Element Selectors 320px
+***************************************/
 
-body{
- font-size: 20px;   
-}
-input{
-    width: 80%  
-}
+    body{
+    font-size: 20px;   
+    }
 
+    input{
+        width: 80%  
+    }
 
 
 /*************************************
 CLASSES 480px
 ***************************************/
 
-.loginButton{
-  width: 90%;
-  height: 40px;
-}
-.logoText{
-    font-size: 2em;
-}
+    .loginButton{
+    width: 90%;
+    height: 40px;
+    }
+    .logoText{
+        font-size: 2em;
+    }
 
-.notMember{
-    padding-top: 3px;
+    .notMember{
+        padding-top: 3px;
+    }
 }
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -181,70 +184,68 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 Tag/Element Selectors 768px
 EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 
-form{
-    max-width: 786px;
-        /*background:rgba(233,333,883,0.2);
 
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);*/
-}
-body{
- font-size: 20px;   
-}
-input{
-    width: 90%  
-}
+    body{
+    font-size: 20px;   
+    }
 
-label{
-    width: 5%;
-    padding-right: 40px;
-}
-.logo{
-     width: 500px;
-}
-.logoText{
-    font-size: 3em;
-}
+    form{
+        max-width: 786px;
+            /*background:rgba(233,333,883,0.2);
+
+        filter:blur(4px);
+        -o-filter:blur(4px);
+        -ms-filter:blur(4px);
+        -moz-filter:blur(4px);
+        -webkit-filter:blur(4px);*/
+    }
+
+    input{
+        width: 90%  
+    }
+
+    label{
+        width: 5%;
+        padding-right: 40px;
+    }
+
 
 /*************************************
 CLASSES 768px
 ***************************************/
 
-.loginButton{
-  width: 95%;
-  height: 40px;
+    .loginButton{
+    width: 95%;
+    height: 40px;
+    }
+
+    .logo{
+        width: 500px;
+    }
+
+    .logoText{
+        font-size: 3em;
+    }
+
+    .notMember{
+        padding-top: 3px;
+    }
+
 }
-
-
-.notMember{
-    padding-top: 3px;
-}
-
-
-
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 992px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-
     }
-
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
            @MEDIA 1200px
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
     /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-
-
-             
+    @media only screen and (min-width : 1200px) {        
     }
-
 
 /*If your going to use text-align center then you would apply text-align: center to it's parent. Get's inherited so any child element will also get this property inherited to them*/
 /*If nothing else is sharing the space then you can display: block and use margin auto*/
